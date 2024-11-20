@@ -42,7 +42,8 @@
 
     #footer .flex-container{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        justify-content: space-around;
         width: 315px;
         height: 200px;
         font-size: 15px;
@@ -50,18 +51,12 @@
     }
 
     #footer .flex-container #info-empresa{
-        position: absolute;
-        right: 1;
-        width: 50%;
-        height: 90%;       
+        width: 50%;      
         
     }
 
     #footer .flex-container #contato{
-        position: absolute;
-        right: 0;
-        width: 50%;
-        height: 90%;
+        width: 50%;  
         
     }
     /* end footer*/
