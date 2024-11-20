@@ -27,6 +27,7 @@ header{
    flex-direction: row;
    align-items: center;
    padding: 50px;
+   font-family: "Satisfy", cursive;
 }
 
 #title{
@@ -120,7 +121,7 @@ main article #foto-palmitog{
    margin-bottom: 15px;
 }
 
-#footer div .informacoes-empresa{
+#footer .container ul{
    text-align: left;
 }
 
